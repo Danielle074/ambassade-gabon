@@ -6,7 +6,7 @@
       <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
         <div class="text-center">
           <div class="inline-block bg-white/20 backdrop-blur px-4 py-1 rounded-full text-sm mb-4">
-            🇬🇦 Ambassade du Gabon aux États-Unis
+            🇬🇦 Ambassade du Gabon en Guinée
           </div>
           <h1 class="text-4xl md:text-5xl font-bold mb-4">Consuls Honoraires</h1>
           <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
@@ -42,14 +42,14 @@
         </div>
         <p class="text-gray-600 text-lg leading-relaxed">
           Les Consuls Honoraires de la République Gabonaise assurent une présence et une assistance consulaire
-          dans différentes régions des États-Unis. Ils travaillent en étroite collaboration avec l'Ambassade
-          à Washington D.C. pour offrir des services de proximité aux ressortissants gabonais.
+          dans différentes régions de la Guinée. Ils travaillent en étroite collaboration avec l'Ambassade
+          à Conakry pour offrir des services de proximité aux ressortissants gabonais.
         </p>
       </div>
 
       <!-- Grille des consuls honoraires -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <!-- Houston, Texas -->
+        <!-- Consulat 1 -->
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
           <div class="bg-gradient-to-r from-[#3A75C4] to-[#2a5a9e] h-3"></div>
           <div class="p-8">
@@ -66,7 +66,7 @@
                 </div>
               </div>
               <div class="bg-[#3A75C4] text-white px-4 py-2 rounded-full text-sm font-semibold">
-                Texas
+                Région 1
               </div>
             </div>
 
@@ -82,7 +82,7 @@
                 <div>
                   <p class="text-sm text-gray-500">Adresse</p>
                   <p class="font-semibold text-gray-800">[Adresse du Consulat]</p>
-                  <p class="text-gray-600">Houston, Texas</p>
+                  <p class="text-gray-600">[Ville], Guinée</p>
                 </div>
               </div>
 
@@ -96,15 +96,15 @@
                 <div>
                   <p class="text-sm text-gray-500">Mobile</p>
                   <a href="tel:+[numero]" class="font-semibold text-[#009E60] hover:underline text-xl">
-                    +1 [Numéro de téléphone]
+                    +224 [Numéro de téléphone]
                   </a>
                 </div>
               </div>
 
               <!-- Badge région -->
               <div class="flex items-center gap-2 mt-4 pt-4 border-t border-gray-200">
-                <span class="text-2xl">🇺🇸</span>
-                <span class="font-medium text-gray-700">Juridiction : Texas et régions environnantes</span>
+                <span class="text-2xl">🇬🇳</span>
+                <span class="font-medium text-gray-700">Juridiction : [Région]</span>
               </div>
             </div>
 
@@ -117,7 +117,7 @@
           </div>
         </div>
 
-        <!-- Santa Monica, California -->
+        <!-- Consulat 2 -->
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
           <div class="bg-gradient-to-r from-[#009E60] to-[#006640] h-3"></div>
           <div class="p-8">
@@ -134,7 +134,7 @@
                 </div>
               </div>
               <div class="bg-[#009E60] text-white px-4 py-2 rounded-full text-sm font-semibold">
-                Californie
+                Région 2
               </div>
             </div>
 
@@ -150,7 +150,7 @@
                 <div>
                   <p class="text-sm text-gray-500">Adresse</p>
                   <p class="font-semibold text-gray-800">[Adresse du Consulat]</p>
-                  <p class="text-gray-600">Santa Monica, Californie</p>
+                  <p class="text-gray-600">[Ville], Guinée</p>
                 </div>
               </div>
 
@@ -164,15 +164,15 @@
                 <div>
                   <p class="text-sm text-gray-500">Mobile</p>
                   <a href="tel:+[numero]" class="font-semibold text-[#009E60] hover:underline text-xl">
-                    +1 [Numéro de téléphone]
+                    +224 [Numéro de téléphone]
                   </a>
                 </div>
               </div>
 
               <!-- Badge région -->
               <div class="flex items-center gap-2 mt-4 pt-4 border-t border-gray-200">
-                <span class="text-2xl">🇺🇸</span>
-                <span class="font-medium text-gray-700">Juridiction : Californie et côte ouest</span>
+                <span class="text-2xl">🇬🇳</span>
+                <span class="font-medium text-gray-700">Juridiction : [Région]</span>
               </div>
             </div>
 
@@ -194,23 +194,23 @@
         </h3>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Houston -->
+          <!-- Consulat 1 -->
           <div class="border border-gray-200 rounded-xl p-4">
             <div class="flex items-center gap-3 mb-3">
               <div class="w-3 h-3 bg-[#3A75C4] rounded-full"></div>
-              <h4 class="font-bold text-lg">Consulat Honoraire - Houston</h4>
+              <h4 class="font-bold text-lg">Consulat Honoraire - [Ville 1]</h4>
             </div>
-            <p class="text-gray-600 ml-6">Couverture : Texas, Louisiane, Arkansas, Oklahoma</p>
+            <p class="text-gray-600 ml-6">Couverture : [Région 1]</p>
             <p class="text-sm text-gray-500 ml-6 mt-1">Consul : [Nom du Consul]</p>
           </div>
 
-          <!-- Santa Monica -->
+          <!-- Consulat 2 -->
           <div class="border border-gray-200 rounded-xl p-4">
             <div class="flex items-center gap-3 mb-3">
               <div class="w-3 h-3 bg-[#009E60] rounded-full"></div>
-              <h4 class="font-bold text-lg">Consulat Honoraire - Santa Monica</h4>
+              <h4 class="font-bold text-lg">Consulat Honoraire - [Ville 2]</h4>
             </div>
-            <p class="text-gray-600 ml-6">Couverture : Californie, Oregon, Washington, Nevada</p>
+            <p class="text-gray-600 ml-6">Couverture : [Région 2]</p>
             <p class="text-sm text-gray-500 ml-6 mt-1">Consul : [Nom du Consul]</p>
           </div>
         </div>
@@ -224,7 +224,7 @@
             <div>
               <p class="font-semibold text-gray-800">Information importante</p>
               <p class="text-gray-600">
-                Les Consuls Honoraires travaillent en étroite collaboration avec l'Ambassade à Washington D.C.
+                Les Consuls Honoraires travaillent en étroite collaboration avec l'Ambassade à Conakry.
                 Pour toute question relative à leur juridiction, n'hésitez pas à les contacter directement.
               </p>
             </div>
@@ -235,15 +235,15 @@
       <!-- Contact Ambassade -->
       <div class="mt-8 text-center">
         <p class="text-gray-600">
-          Vous pouvez également contacter l'Ambassade à Washington D.C. pour toute information complémentaire :
+          Vous pouvez également contacter l'Ambassade à Conakry pour toute information complémentaire :
         </p>
         <div class="flex justify-center gap-4 mt-4">
-          <a href="tel:+12029864300" class="text-[#3A75C4] font-semibold hover:underline">
-            +1 (202) 986-4300
+          <a href="tel:+[numero]" class="text-[#3A75C4] font-semibold hover:underline">
+            +224 [Numéro de l'Ambassade]
           </a>
           <span class="text-gray-300">|</span>
-          <a href="mailto:consulat@ambagabon-usa.org" class="text-[#009E60] font-semibold hover:underline">
-            consulat@ambagabon-usa.org
+          <a href="mailto:consulat@ambagabon-gn.org" class="text-[#009E60] font-semibold hover:underline">
+            consulat@ambagabon-gn.org
           </a>
         </div>
       </div>

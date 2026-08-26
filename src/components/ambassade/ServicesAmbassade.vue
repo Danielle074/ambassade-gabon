@@ -6,11 +6,11 @@
       <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
         <div class="text-center">
           <div class="inline-block bg-white/20 backdrop-blur px-4 py-1 rounded-full text-sm mb-4">
-            🇬🇦 Ambassade du Gabon aux États-Unis
+            🇬🇦 Ambassade du Gabon en Guinée
           </div>
           <h1 class="text-4xl md:text-5xl font-bold mb-4">Services aux Citoyens</h1>
           <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
-            Au service des ressortissants gabonais établis aux États-Unis
+            Au service des ressortissants gabonais établis en Guinée
           </p>
           <div class="flex justify-center gap-4 mt-8">
             <div class="w-16 h-1 bg-[#3A75C4]"></div>
@@ -66,8 +66,8 @@
               </svg>
               Adresse
             </h3>
-            <p class="text-gray-700 text-lg">2112 Leroy Place, NW</p>
-            <p class="text-gray-700">Washington, D.C. 20008</p>
+            <p class="text-gray-700 text-lg">[Adresse à Conakry]</p>
+            <p class="text-gray-700">Conakry, Guinée</p>
             <a href="#" class="text-[#3A75C4] hover:underline mt-2 inline-block">Voir sur Google Maps →</a>
           </div>
 
@@ -78,7 +78,7 @@
               </svg>
               Téléphone
             </h3>
-            <p class="text-gray-700 text-xl font-semibold">+1 (202) 986-4300</p>
+            <p class="text-gray-700 text-xl font-semibold">+224 [Numéro du consulat]</p>
             <p class="text-sm text-gray-500 mt-2">Ligne directe du consulat</p>
           </div>
         </div>
@@ -86,7 +86,7 @@
         <!-- Rôle du consulat -->
         <div class="bg-blue-50 border-l-4 border-[#3A75C4] p-6 rounded-r-xl mb-8">
           <p class="text-gray-700 text-lg">
-            Il est chargé des relations avec les ressortissants Gabonais établis aux États-Unis d'Amérique.
+            Il est chargé des relations avec les ressortissants Gabonais établis en République de Guinée.
             Son rôle consiste avant tout d'assurer la <span class="font-bold text-[#3A75C4]">protection de nos compatriotes</span>.
           </p>
         </div>
@@ -102,7 +102,7 @@
               </svg>
             </div>
             <h4 class="font-semibold">Assistance</h4>
-            <p class="text-sm text-gray-600">À tous nos compatriotes vivant aux États-Unis</p>
+            <p class="text-sm text-gray-600">À tous nos compatriotes vivant en Guinée</p>
           </div>
 
           <div class="bg-gray-50 p-4 rounded-lg text-center hover:shadow-md transition-shadow">
@@ -185,27 +185,21 @@
             <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
             </svg>
-            Mission Permanente de la République Gabonaise près les Nations Unies
+            Ambassade du Gabon en Guinée
           </h4>
-          <p class="mb-2">140 East 39th Street, New York</p>
+          <p class="mb-2">[Adresse à Conakry]</p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div class="flex items-center gap-2">
               <svg class="w-5 h-5 text-[#FCD116]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
               </svg>
-              <span>+1 (212) 687-8115</span>
+              <span>+224 [Numéro]</span>
             </div>
             <div class="flex items-center gap-2">
               <svg class="w-5 h-5 text-[#FCD116]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
               </svg>
-              <span>mission@gabon-un.org</span>
-            </div>
-            <div class="flex items-center gap-2 col-span-2">
-              <svg class="w-5 h-5 text-[#FCD116]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-              </svg>
-              <span>mpgabon@mae.gouv.ga</span>
+              <span>ambassade@gabon-gn.org</span>
             </div>
           </div>
         </div>
@@ -236,8 +230,8 @@
               </svg>
               Adresse
             </h3>
-            <p class="text-gray-700 text-lg">2112 Leroy Place, NW</p>
-            <p class="text-gray-700">Washington, D.C. 20008</p>
+            <p class="text-gray-700 text-lg">[Adresse à Conakry]</p>
+            <p class="text-gray-700">Conakry, Guinée</p>
           </div>
 
           <div class="bg-gray-50 rounded-xl p-6">
@@ -247,7 +241,7 @@
               </svg>
               Téléphone
             </h3>
-            <p class="text-gray-700 text-xl font-semibold">+1 (202) 986-4300</p>
+            <p class="text-gray-700 text-xl font-semibold">+224 [Numéro]</p>
             <p class="text-sm text-gray-500 mt-2">Standard de l'Ambassade</p>
           </div>
         </div>
@@ -261,7 +255,7 @@
             <div>
               <h4 class="font-bold text-gray-800 mb-2">Information complémentaire</h4>
               <p class="text-gray-600">
-                Pour toute information complémentaire, nous vous prions de bien vouloir vous renseigner auprès du service consulaire de la Mission Permanente de la République Gabonaise près les Nations Unies située à 140 East 39th Street à New-York.
+                Pour toute information complémentaire, nous vous prions de bien vouloir vous renseigner auprès du service consulaire de l'Ambassade du Gabon en Guinée.
               </p>
             </div>
           </div>

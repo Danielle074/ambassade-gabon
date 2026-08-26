@@ -22,7 +22,7 @@
           <!-- Titre et fonction -->
           <div class="text-center md:text-left">
             <div class="inline-block bg-white/20 backdrop-blur px-4 py-1 rounded-full text-sm mb-4">
-              🇬🇦 Ambassade du Gabon aux États-Unis
+              🇬🇦 Ambassade du Gabon en Guinée
             </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-3">
               {{ ambassadeur.nom }}
@@ -31,7 +31,7 @@
               Ambassadeur Extraordinaire et Plénipotentiaire
             </p>
             <p class="text-xl opacity-90">
-              près les États-Unis d'Amérique
+              près la République de Guinée
             </p>
             <div class="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
               <span class="bg-white/20 px-4 py-2 rounded-full text-sm flex items-center gap-2">
@@ -70,7 +70,7 @@
             </svg>
           </div>
           <p class="text-lg md:text-xl font-semibold">
-            🎯 Un diplomate de haut rang au service du Gabon aux États-Unis.
+            🎯 Un diplomate de haut rang au service du Gabon en Guinée.
           </p>
         </div>
       </div>
@@ -106,14 +106,14 @@
 
               <h3 class="text-xl font-bold text-[#3A75C4] mb-3">Carrière diplomatique</h3>
               <p class="text-gray-700 mb-4">
-                Fort d'une solide expérience dans le domaine diplomatique, M. Brice Boussougou Boussougou a été nommé <span class="font-bold text-[#3A75C4]">Ambassadeur Extraordinaire et Plénipotentiaire</span> du Gabon aux États-Unis d'Amérique. C'est à ce titre qu'il représente aujourd'hui le Gabon aux États-Unis.
+                Fort d'une solide expérience dans le domaine diplomatique, M. Persis Lionel Essono Ondo a été nommé <span class="font-bold text-[#3A75C4]">Ambassadeur Extraordinaire et Plénipotentiaire</span> du Gabon en République de Guinée. C'est à ce titre qu'il représente aujourd'hui le Gabon en Guinée.
               </p>
 
               <h3 class="text-xl font-bold text-[#3A75C4] mb-3">Parcours professionnel</h3>
               <div class="space-y-3">
                 <div class="flex items-start gap-3">
                   <span class="text-[#3A75C4] font-bold">2024</span>
-                  <span>Nomination en tant qu'Ambassadeur Extraordinaire et Plénipotentiaire près les États-Unis</span>
+                  <span>Nomination en tant qu'Ambassadeur Extraordinaire et Plénipotentiaire près la Guinée</span>
                 </div>
                 <div class="flex items-start gap-3">
                   <span class="text-[#FCD116] font-bold">2020-2024</span>
@@ -177,7 +177,7 @@
             <div class="space-y-4">
               <div>
                 <p class="text-sm text-gray-500">Nom complet</p>
-                <p class="font-semibold">Brice Boussougou Boussougou</p>
+                <p class="font-semibold">Persis Lionel Essono Ondo</p>
               </div>
 
               <div>
@@ -258,7 +258,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
             </svg>
             <h4 class="font-bold text-gray-800 text-lg mb-1">Liste des Ambassadeurs</h4>
-            <p class="text-sm text-gray-600">aux États-Unis d'Amérique</p>
+            <p class="text-sm text-gray-600">en République de Guinée</p>
             <span class="text-[#3A75C4] font-semibold mt-2 inline-block group-hover:translate-x-2 transition-transform">
               Voir la liste →
             </span>
@@ -271,11 +271,11 @@
 
 <script setup>
 import { ref } from 'vue'
-import ambassadeurPhoto from '@/assets/images/ambassadeur.jpeg'
+import ambassadeurPhoto from '@/assets/images/ambassadeurdugabon.jpeg'
 
 // Données de l'ambassadeur
 const ambassadeur = ref({
-  nom: "Brice Boussougou Boussougou",
+  nom: "Persis Lionel Essono Ondo",
   titre: "Ambassadeur Extraordinaire et Plénipotentiaire"
 })
 </script>

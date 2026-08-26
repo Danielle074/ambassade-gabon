@@ -6,7 +6,7 @@
       <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
         <div class="text-center">
           <div class="inline-block bg-white/20 backdrop-blur px-4 py-1 rounded-full text-sm mb-4">
-            🇬🇦 Ambassade du Gabon aux États-Unis
+            🇬🇦 Ambassade du Gabon en Guinée
           </div>
           <h1 class="text-4xl md:text-5xl font-bold mb-4">La Chancellerie Diplomatique</h1>
           <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
@@ -39,7 +39,7 @@
               Mission de la Chancellerie
             </h2>
             <p class="text-gray-700 leading-relaxed mb-4">
-              La chancellerie diplomatique est chargée d'assister l'Ambassadeur dans ses fonctions de chef de mission officiel, représentant du Président de la République, Chef de l'État et du Gouvernement gabonais auprès des autorités américaine, costaricaine, haïtienne et bahamienne.
+              La chancellerie diplomatique est chargée d'assister l'Ambassadeur dans ses fonctions de chef de mission officiel, représentant du Président de la République, Chef de l'État et du Gouvernement gabonais auprès des autorités guinéennes.
             </p>
             <p class="text-gray-700 leading-relaxed">
               À ce titre, elle a pour mission l'analyse de la situation politique, économique, sociale et culturelle des pays de sa juridiction, tout en assurant la coordination des services de l'Ambassade, le service d'appui notamment.
@@ -55,7 +55,7 @@
             <ul class="space-y-2 text-sm">
               <li class="flex items-center gap-2">
                 <span class="w-1 h-1 bg-[#FCD116] rounded-full"></span>
-                États-Unis d'Amérique
+                République de Guinée
               </li>
               <li class="flex items-center gap-2">
                 <span class="w-1 h-1 bg-[#FCD116] rounded-full"></span>

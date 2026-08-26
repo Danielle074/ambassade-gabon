@@ -239,7 +239,7 @@
                 </svg>
                 <div>
                   <p class="font-semibold">Téléphone</p>
-                  <p class="text-gray-600">+1 (202) 986-4300</p>
+                  <p class="text-gray-600">+224 [Numéro]</p>
                 </div>
               </div>
               <div class="flex items-start gap-3">
@@ -248,7 +248,7 @@
                 </svg>
                 <div>
                   <p class="font-semibold">Email</p>
-                  <p class="text-gray-600">consulat@ambagabon-usa.org</p>
+                  <p class="text-gray-600">consulat@ambagabon-gn.org</p>
                 </div>
               </div>
               <div class="flex items-start gap-3">
@@ -258,7 +258,7 @@
                 </svg>
                 <div>
                   <p class="font-semibold">Adresse</p>
-                  <p class="text-gray-600">2112 Leroy Place, NW<br>Washington, D.C. 20008</p>
+                  <p class="text-gray-600">[Adresse à Conakry]<br>Conakry, Guinée</p>
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@
               </li>
               <li class="flex items-start gap-2">
                 <span class="text-[#FCD116]">✓</span>
-                <span>Preuve de résidence aux États-Unis</span>
+                <span>Preuve de résidence en Guinée</span>
               </li>
             </ul>
           </div>

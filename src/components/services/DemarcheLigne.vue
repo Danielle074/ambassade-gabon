@@ -94,8 +94,8 @@
                 <input type="email" v-model="form.email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#3A75C4] focus:border-transparent transition" placeholder="exemple@domaine.com">
               </div>
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Téléphone (USA) *</label>
-                <input type="tel" v-model="form.phone" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#3A75C4] focus:border-transparent transition" placeholder="+1 234 567 8900">
+                <label class="block text-sm font-medium text-gray-700 mb-2">Téléphone (Guinée) *</label>
+                <input type="tel" v-model="form.phone" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#3A75C4] focus:border-transparent transition" placeholder="+224 234 567 8900">
               </div>
             </div>
 
@@ -138,13 +138,13 @@
                 </div>
               </div>
 
-              <!-- Preuve de résidence USA -->
+              <!-- Preuve de résidence Guinée -->
               <div class="border-2 border-dashed border-gray-300 rounded-xl p-6 hover:border-[#3A75C4] transition">
                 <div class="text-center">
                   <svg class="w-12 h-12 text-[#3A75C4] mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                   </svg>
-                  <h3 class="font-semibold text-gray-800 mb-2">Preuve de résidence aux USA *</h3>
+                  <h3 class="font-semibold text-gray-800 mb-2">Preuve de résidence en Guinée *</h3>
                   <p class="text-sm text-gray-500 mb-3">Pièce d'identité locale, facture, bail (PDF, JPG, PNG, max 5 Mo)</p>
                   <input type="file" @change="handleFileUpload($event, 'residence')" accept=".pdf,.jpg,.jpeg,.png" class="hidden" ref="residenceInput">
                   <button @click="$refs.residenceInput.click()" class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition text-sm">Choisir un fichier</button>

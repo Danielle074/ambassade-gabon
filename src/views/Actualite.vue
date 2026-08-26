@@ -388,8 +388,6 @@ const email = ref('')
 // ============================================================
 // IMPORT DES IMAGES
 // ============================================================
-// UNIQUEMENT 4 IMAGES : hero1, hero2, hero3 et hero4
-// ============================================================
 
 import hero1Image from '@/assets/images/hero1.jpg'
 import hero2Image from '@/assets/images/hero2.jpg'
@@ -440,9 +438,9 @@ const categories = [
 const toutesActualites = ref([
   {
     id: 1,
-    titre: "Rencontre diplomatique entre le Gabon et les États-Unis",
+    titre: "Rencontre diplomatique entre le Gabon et la Guinée",
     description:
-      "L'ambassadeur S.E. Monsieur Brice Boussougou Boussougou a été reçu par le secrétaire d'État américain pour discuter du renforcement de la coopération bilatérale entre nos deux pays.",
+      "L'ambassadeur S.E. Monsieur Brice Boussougou Boussougou a été reçu par les autorités guinéennes pour discuter du renforcement de la coopération bilatérale entre nos deux pays.",
     image: hero4Image,
     date: '2024-03-15',
     categorie: 'diplomatie',
@@ -470,9 +468,9 @@ const toutesActualites = ref([
   {
     id: 3,
     titre:
-      "Forum économique Gabon-États-Unis : Nouvelles opportunités d'investissement",
+      "Forum économique Gabon-Guinée : Nouvelles opportunités d'investissement",
     description:
-      "Plus de 200 investisseurs américains ont participé au forum visant à promouvoir les opportunités d'affaires au Gabon.",
+      "Plus de 200 investisseurs guinéens ont participé au forum visant à promouvoir les opportunités d'affaires au Gabon.",
     image: hero2Image,
     date: '2024-03-05',
     categorie: 'economie',
@@ -485,9 +483,9 @@ const toutesActualites = ref([
   {
     id: 4,
     titre:
-      "Journée culturelle gabonaise à Washington",
+      "Journée culturelle gabonaise en Guinée",
     description:
-      "La diaspora gabonaise s'est réunie pour célébrer la richesse culturelle de notre pays à travers la musique, la danse et la gastronomie.",
+      "La communauté gabonaise s'est réunie pour célébrer la richesse culturelle de notre pays à travers la musique, la danse et la gastronomie.",
     image: hero1Image,
     date: '2024-02-28',
     categorie: 'culture',
@@ -517,7 +515,7 @@ const toutesActualites = ref([
     titre:
       "Inauguration du nouveau centre culturel gabonais",
     description:
-      "Un espace dédié à la promotion de la culture gabonaise a ouvert ses portes au cœur de Washington.",
+      "Un espace dédié à la promotion de la culture gabonaise a ouvert ses portes à Conakry.",
     image: hero3Image,
     date: '2024-02-20',
     categorie: 'culture',
@@ -530,7 +528,7 @@ const toutesActualites = ref([
   {
     id: 7,
     titre:
-      "Rencontre avec la communauté gabonaise de New York",
+      "Rencontre avec la communauté gabonaise de Conakry",
     description:
       "L'ambassadeur a rencontré les représentants de la communauté gabonaise pour échanger sur leurs préoccupations.",
     image: hero2Image,
@@ -547,7 +545,7 @@ const toutesActualites = ref([
     titre:
       "Signature d'un accord de coopération éducative",
     description:
-      "Un partenariat a été signé entre l'Ambassade et plusieurs universités américaines pour faciliter les échanges d'étudiants.",
+      "Un partenariat a été signé entre l'Ambassade et plusieurs universités guinéennes pour faciliter les échanges d'étudiants.",
     image: hero1Image,
     date: '2024-02-10',
     categorie: 'diplomatie',

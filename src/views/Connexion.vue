@@ -16,7 +16,7 @@
 
         <!-- Logo -->
         <div class="flex flex-col items-center mb-6">
-          <img :src="formLogo" alt="Logo Secure Check" class="w-52 h-auto mb-2" />
+          <img :src="formLogo" alt="Logo Ambassade" class="w-52 h-auto mb-2" />
           <h2 class="text-2xl font-bold text-[#3A75C4]">Bienvenue</h2>
         </div>
 
@@ -25,7 +25,7 @@
           <div>
             <input
               type="email"
-              placeholder="securecheck@scb.org"
+              placeholder="votre@email.com"
               v-model="email"
               class="w-full px-4 py-2 border border-[#3A75C4] rounded-lg focus:ring-2 focus:ring-[#3A75C4] focus:outline-none"
               required
@@ -76,8 +76,7 @@
         </p>
 
         <p class="text-center text-gray-500 text-sm mt-8 leading-tight">
-          L'application de gestion et suivie de vos colis avec Maposte<br />
-          de <span class="font-semibold text-[#3A75C4]">Maposte</span>
+          Ambassade de la République Gabonaise en Guinée
         </p>
       </div>
     </div>
@@ -86,7 +85,7 @@
     <div class="hidden md:flex md:w-1/2 relative overflow-hidden order-1 md:order-2 bg-[#3A75C4]/20">
       <img
         :src="loginImage"
-        alt="Maposte"
+        alt="Ambassade Gabon"
         class="w-full h-full object-cover opacity-90"
       />
 

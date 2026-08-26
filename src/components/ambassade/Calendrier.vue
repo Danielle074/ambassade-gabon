@@ -6,7 +6,7 @@
       <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-20">
         <div class="text-center">
           <div class="inline-block bg-white/20 backdrop-blur px-4 py-1 rounded-full text-sm mb-4">
-            🇬🇦 Ambassade du Gabon aux États-Unis
+            🇬🇦 Ambassade du Gabon en Guinée
           </div>
           <h1 class="text-4xl md:text-5xl font-bold mb-4">Calendrier des Fêtes Légales</h1>
           <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">

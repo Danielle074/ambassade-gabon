@@ -19,8 +19,7 @@
           <!-- Titre -->
           <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Ambassade de la République Gabonaise
-            près les Etats-Unis d'Amérique
-            Washington DC
+            en République de Guinée
           </h1>
 
           <!-- Texte -->
@@ -92,7 +91,7 @@
                 />
               </div>
               <div class="p-6 text-center bg-gradient-to-b from-[#009E60] to-[#006640] text-white flex-grow min-h-[130px] flex flex-col justify-center">
-                <h4 class="text-lg font-bold mb-1">M. Brice Boussougou Boussougou</h4>
+                <h4 class="text-lg font-bold mb-1">M. Persis Lionel Essono Ondo</h4>
                 <p class="text-[#FCD116] text-sm font-medium">Ambassadeur Extraordinaire et Plénipotentiaire</p>
               </div>
             </div>
@@ -108,12 +107,12 @@
               <div class="h-80 lg:h-[420px] overflow-hidden flex-shrink-0 bg-gray-100">
                 <img
                   :src="presidentImage"
-                  alt="Président Brice Clotaire Oligui Nguema"
+                  alt="Président Persis Lionel Essono Ondo "
                   class="w-full h-full object-cover object-[center_20%]"
                 />
               </div>
               <div class="p-6 text-center bg-gradient-to-b from-[#FCD116] to-[#e6a800] text-white flex-grow min-h-[130px] flex flex-col justify-center">
-                <h3 class="text-lg font-bold mb-1">S.E. Monsieur Brice Clotaire Oligui Nguema</h3>
+                <h3 class="text-lg font-bold mb-1">S.E. Monsieur Persis Lionel Essono Ondo</h3>
                 <p class="text-white text-sm font-medium">Président de la République, Chef de l'État</p>
                 <p class="text-white/70 text-xs mt-1">République Gabonaise</p>
               </div>
@@ -146,10 +145,10 @@
             Chers amis et partenaires de la République Gabonaise,"
           </p>
           <p class="text-gray-700 leading-relaxed mb-6">
-            C'est avec un réel plaisir que nous vous ouvrons les portes d'entrée de l'Ambassade du Gabon à Washington DC et celles du Gabon toute entière via ce site web.
+            C'est avec un réel plaisir que nous vous ouvrons les portes d'entrée de l'Ambassade du Gabon en Guinée et celles du Gabon toute entière via ce site web.
           </p>
           <p class="text-gray-700 leading-relaxed">
-            En effet, la coopération entre les États-Unis et la République Gabonaise date des premières années de l'indépendance du Gabon. Mais, c'est en 1979 que les relations diplomatiques proprement dites ont été établies entre les deux pays. Cet élan de coopération connaîtra un second souffle en 1982 avec la signature de l'Accord général de coopération et de développement, suivi de l'ouverture de l'ambassade du Gabon aux États-Unis en 1980 et celle des États-Unis au Gabon en 1982.
+            En effet, la coopération entre la Guinée et la République Gabonaise date des premières années de l'indépendance du Gabon. Mais, c'est en 1979 que les relations diplomatiques proprement dites ont été établies entre les deux pays. Cet élan de coopération connaîtra un second souffle en 1982 avec la signature de l'Accord général de coopération et de développement, suivi de l'ouverture de l'ambassade du Gabon en Guinée en 1980 et celle de la Guinée au Gabon en 1982.
           </p>
         </div>
       </div>
@@ -173,7 +172,7 @@
               <i class='bx bx-edit text-4xl text-[#009E60]'></i>
             </div>
             <h3 class="text-2xl font-bold text-[#009E60] mb-3">Visa</h3>
-            <p class="text-gray-600 mb-4">Demande de visa pour les États-Unis et informations sur les procédures.</p>
+            <p class="text-gray-600 mb-4">Demande de visa pour la Guinée et informations sur les procédures.</p>
             <router-link to="/services/visa" class="text-[#3A75C4] font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
               En savoir plus <i class='bx bx-right-arrow-alt'></i>
             </router-link>
@@ -294,7 +293,7 @@
                   </div>
                   <div>
                     <h3 class="font-semibold text-lg mb-1">Réunion diplomatique</h3>
-                    <p class="text-gray-600 text-sm">Rencontre avec le secrétaire d'État américain</p>
+                    <p class="text-gray-600 text-sm">Rencontre avec le ministre guinéen des Affaires Étrangères</p>
                   </div>
                 </div>
               </div>
@@ -327,7 +326,7 @@
                   </div>
                   <div>
                     <h3 class="font-semibold text-lg mb-1">Journée culturelle</h3>
-                    <p class="text-gray-600 text-sm">Célébration de la culture gabonaise à Washington</p>
+                    <p class="text-gray-600 text-sm">Célébration de la culture gabonaise en Guinée</p>
                   </div>
                 </div>
               </div>
@@ -363,7 +362,7 @@
                 <span>15 Mars 2024</span>
               </div>
               <h3 class="font-bold text-lg mb-2 text-[#009E60]">Rencontre diplomatique de haut niveau</h3>
-              <p class="text-gray-600 text-sm mb-4">L'ambassadeur reçu par le secrétaire d'État américain pour renforcer la coopération bilatérale.</p>
+              <p class="text-gray-600 text-sm mb-4">L'ambassadeur reçu par les autorités guinéennes pour renforcer la coopération bilatérale.</p>
               <router-link to="/actualites/1" class="text-[#3A75C4] font-semibold inline-flex items-center gap-1 hover:gap-2 transition-all">
                 Lire la suite <i class='bx bx-right-arrow-alt'></i>
               </router-link>
@@ -404,8 +403,8 @@
                 <i class='bx bx-calendar'></i>
                 <span>5 Mars 2024</span>
               </div>
-              <h3 class="font-bold text-lg mb-2 text-[#009E60]">Forum économique Gabon-États-Unis</h3>
-              <p class="text-gray-600 text-sm mb-4">Promotion des opportunités d'investissement au Gabon devant les investisseurs américains.</p>
+              <h3 class="font-bold text-lg mb-2 text-[#009E60]">Forum économique Gabon-Guinée</h3>
+              <p class="text-gray-600 text-sm mb-4">Promotion des opportunités d'investissement au Gabon devant les investisseurs guinéens.</p>
               <router-link to="/actualites/3" class="text-[#3A75C4] font-semibold inline-flex items-center gap-1 hover:gap-2 transition-all">
                 Lire la suite <i class='bx bx-right-arrow-alt'></i>
               </router-link>
@@ -425,8 +424,8 @@
                 <i class='bx bx-calendar'></i>
                 <span>28 Fev 2024</span>
               </div>
-              <h3 class="font-bold text-lg mb-2 text-[#009E60]">Journée culturelle gabonaise à Washington</h3>
-              <p class="text-gray-600 text-sm mb-4">Célébration de la richesse culturelle du Gabon avec la diaspora.</p>
+              <h3 class="font-bold text-lg mb-2 text-[#009E60]">Journée culturelle gabonaise en Guinée</h3>
+              <p class="text-gray-600 text-sm mb-4">Célébration de la richesse culturelle du Gabon avec la communauté gabonaise en Guinée.</p>
               <router-link to="/actualites/4" class="text-[#3A75C4] font-semibold inline-flex items-center gap-1 hover:gap-2 transition-all">
                 Lire la suite <i class='bx bx-right-arrow-alt'></i>
               </router-link>

@@ -13,7 +13,7 @@
           </div>
         </div>
         <h1 class="text-5xl md:text-6xl font-bold mb-4">Ambassade de la République Gabonaise</h1>
-        <p class="text-xl md:text-2xl mb-8 max-w-3xl">aux États-Unis d'Amérique - Washington DC</p>
+        <p class="text-xl md:text-2xl mb-8 max-w-3xl">en République de Guinée - Conakry</p>
         <div class="flex gap-4">
           <div class="w-16 h-1 bg-[#3A75C4]"></div>
           <div class="w-16 h-1 bg-[#FCD116]"></div>
@@ -43,8 +43,8 @@
             </div>
             <div>
               <h3 class="text-xl font-bold text-gray-800 mb-2">Notre adresse</h3>
-              <p class="text-gray-600 text-lg">2112 Leroy Place, NW</p>
-              <p class="text-gray-600">Washington, DC, 20008</p>
+              <p class="text-gray-600 text-lg">[Adresse à Conakry]</p>
+              <p class="text-gray-600">Conakry, Guinée</p>
               <a href="#" class="text-[#3A75C4] hover:underline mt-2 inline-block">Voir sur Google Maps →</a>
             </div>
           </div>
@@ -57,8 +57,8 @@
             </div>
             <div>
               <h3 class="text-xl font-bold text-gray-800 mb-2">Juridiction</h3>
-              <p class="text-gray-600">États-Unis, Costa-Rica, Haïti, Bahamas</p>
-              <p class="text-gray-600 text-sm mt-1">+ Institutions Internationales (BM, FMI)</p>
+              <p class="text-gray-600">République de Guinée</p>
+              <p class="text-gray-600 text-sm mt-1">+ Institutions Internationales</p>
             </div>
           </div>
         </div>
@@ -74,16 +74,16 @@
 
           <div class="prose prose-lg max-w-none">
             <p class="text-gray-700 leading-relaxed mb-4">
-              <span class="font-bold text-[#3A75C4]">L'Ambassade de la République Gabonaise aux États-Unis</span> est la représentation diplomatique du Gabon auprès des États-Unis d'Amérique. Établie depuis 1960, un an après l'accession de notre pays à l'indépendance, elle incarne les relations étroites et durables entre nos deux nations.
+              <span class="font-bold text-[#3A75C4]">L'Ambassade de la République Gabonaise en Guinée</span> est la représentation diplomatique du Gabon auprès de la République de Guinée. Établie depuis 1960, un an après l'accession de notre pays à l'indépendance, elle incarne les relations étroites et durables entre nos deux nations.
             </p>
 
             <p class="text-gray-700 leading-relaxed mb-4">
-              Située au cœur de la capitale américaine, l'Ambassade de la République Gabonaise à Washington, DC est l'une des 1818 représentations étrangères aux États-Unis et l'une des 186 représentations étrangères à Washington, D.C.
+              Située au cœur de la capitale guinéenne, l'Ambassade de la République Gabonaise à Conakry est l'une des représentations étrangères en Guinée.
             </p>
 
             <div class="bg-gray-50 p-6 rounded-xl border-l-4 border-[#FCD116] my-6">
               <p class="text-gray-700 italic">
-                "La République Gabonaise et les États-Unis entretiennent d'étroites relations bilatérales, ce, depuis 1960, un an après l'accession de notre pays à l'indépendance."
+                "La République Gabonaise et la République de Guinée entretiennent d'étroites relations bilatérales, ce, depuis 1960, un an après l'accession de notre pays à l'indépendance."
               </p>
             </div>
           </div>
@@ -100,25 +100,13 @@
           <ul class="space-y-3 mb-6">
             <li class="flex items-center gap-2">
               <span class="w-2 h-2 bg-[#FCD116] rounded-full"></span>
-              <span>États-Unis d'Amérique</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="w-2 h-2 bg-[#FCD116] rounded-full"></span>
-              <span>République du Costa-Rica</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="w-2 h-2 bg-[#FCD116] rounded-full"></span>
-              <span>République d'Haïti</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="w-2 h-2 bg-[#FCD116] rounded-full"></span>
-              <span>Commonwealth des Bahamas</span>
+              <span>République de Guinée</span>
             </li>
           </ul>
 
           <div class="border-t border-white/20 pt-4">
-            <h4 class="font-semibold mb-2">Institutions Internationales</h4>
-            <p class="text-sm opacity-90">Banque Mondiale • Fonds Monétaire International</p>
+            <h4 class="font-semibold mb-2">Coopération</h4>
+            <p class="text-sm opacity-90">Relations bilatérales Gabon-Guinée</p>
           </div>
         </div>
       </div>
@@ -131,7 +119,7 @@
         </h2>
 
         <p class="text-gray-700 text-lg mb-8 max-w-4xl">
-          L'Ambassade de la République Gabonaise aux États-Unis est constituée d'une équipe de diplomates qui a pour mission de suivre l'évolution politique, économique et sociale, ainsi que la politique extérieure des États-Unis.
+          L'Ambassade de la République Gabonaise en Guinée est constituée d'une équipe de diplomates qui a pour mission de suivre l'évolution politique, économique et sociale, ainsi que la politique extérieure de la Guinée.
         </p>
 
         <!-- 4 piliers de la mission -->
@@ -143,7 +131,7 @@
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-2">Représenter</h3>
-            <p class="text-gray-600">L'ambassade représente la République Gabonaise aux États-Unis d'Amérique et facilite les relations entre les deux pays.</p>
+            <p class="text-gray-600">L'ambassade représente la République Gabonaise en Guinée et facilite les relations entre les deux pays.</p>
           </div>
 
           <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-[#FCD116]">
@@ -153,7 +141,7 @@
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-2">Informer</h3>
-            <p class="text-gray-600">Elle informe les autorités publiques Gabonaises sur l'environnement politique, économique et social des États-Unis.</p>
+            <p class="text-gray-600">Elle informe les autorités publiques Gabonaises sur l'environnement politique, économique et social de la Guinée.</p>
           </div>
 
           <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border-t-4 border-[#009E60]">
@@ -178,7 +166,7 @@
         </div>
 
         <p class="text-gray-700 text-lg border-l-4 border-[#FCD116] pl-6 py-2 bg-gray-50 rounded-r-lg">
-          L'Ambassade de la République Gabonaise aux États-Unis représente le Gabon auprès des Organisations Internationales comme la Banque Mondiale et le Fonds Monétaire International.
+          L'Ambassade de la République Gabonaise en Guinée représente le Gabon auprès des autorités guinéennes.
         </p>
       </div>
 
@@ -191,16 +179,16 @@
             <p class="text-sm opacity-90">Année d'établissement</p>
           </div>
           <div>
-            <div class="text-4xl font-bold mb-2">1818</div>
-            <p class="text-sm opacity-90">Représentations étrangères aux USA</p>
-          </div>
-          <div>
-            <div class="text-4xl font-bold mb-2">186</div>
-            <p class="text-sm opacity-90">Ambassades à Washington DC</p>
-          </div>
-          <div>
-            <div class="text-4xl font-bold mb-2">4</div>
+            <div class="text-4xl font-bold mb-2">1</div>
             <p class="text-sm opacity-90">Pays sous juridiction</p>
+          </div>
+          <div>
+            <div class="text-4xl font-bold mb-2">2024</div>
+            <p class="text-sm opacity-90">Année de la mission</p>
+          </div>
+          <div>
+            <div class="text-4xl font-bold mb-2">🇬🇦🤝🇬🇳</div>
+            <p class="text-sm opacity-90">Coopération bilatérale</p>
           </div>
         </div>
       </div>
@@ -209,31 +197,27 @@
       <div class="bg-white rounded-2xl shadow-lg p-8">
         <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
           <span class="bg-[#FCD116] w-1 h-8 mr-3"></span>
-          Représentation auprès des Institutions Internationales
+          Coopération Bilatérale
         </h3>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
             <div class="bg-[#3A75C4] p-3 rounded-full">
-              <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
-              </svg>
+              <span class="text-2xl">🇬🇦</span>
             </div>
             <div>
-              <h4 class="font-bold text-lg">Banque Mondiale</h4>
-              <p class="text-gray-600">Coopération économique et financière</p>
+              <h4 class="font-bold text-lg">République Gabonaise</h4>
+              <p class="text-gray-600">Mission diplomatique</p>
             </div>
           </div>
 
           <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
             <div class="bg-[#009E60] p-3 rounded-full">
-              <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
-              </svg>
+              <span class="text-2xl">🇬🇳</span>
             </div>
             <div>
-              <h4 class="font-bold text-lg">Fonds Monétaire International</h4>
-              <p class="text-gray-600">Politiques monétaires et financières</p>
+              <h4 class="font-bold text-lg">République de Guinée</h4>
+              <p class="text-gray-600">Pays d'accueil</p>
             </div>
           </div>
         </div>
@@ -268,9 +252,9 @@ import logo1 from '@/assets/images/logo.png'
 // Données pour les stats
 const stats = ref([
   { nombre: 1960, label: "Année d'établissement" },
-  { nombre: 1818, label: "Représentations étrangères aux USA" },
-  { nombre: 186, label: "Ambassades à Washington DC" },
-  { nombre: 4, label: "Pays sous juridiction" }
+  { nombre: 1, label: "Pays sous juridiction" },
+  { nombre: 2024, label: "Année de la mission" },
+  { nombre: 0, label: "Coopération bilatérale" }
 ])
 </script>
 
