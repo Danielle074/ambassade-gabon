@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <!-- Navbar blanche avec couleurs Gabon -->
-    <nav class="bg-white text-[#009E60] fixed top-0 left-0 right-0 z-50 shadow-md">
-      <div class="max-w-7xl mx-auto px-1 sm:px-6 lg:px-8 py-2">
+    <!-- Navbar en effet Glassmorphism (fond sombre translucide + flou) -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/5 backdrop-blur-md border-b border-white/20 text-white transition-colors duration-300 shadow-lg">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-3">
         <div class="flex items-center justify-between">
           <div class="flex flex-col gap-1">
             <div class="flex items-center gap-4">
@@ -11,27 +11,27 @@
           </div>
 
           <!-- Mobile menu button -->
-          <button @click="toggleMobileMenu" class="lg:hidden text-2xl text-[#009E60]">
+          <button @click="toggleMobileMenu" class="lg:hidden text-2xl text-white focus:outline-none">
             ☰
           </button>
 
           <!-- Desktop menu -->
-          <div class="hidden lg:flex items-center gap-4">
-            <router-link to="/" class="nav-item px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] transition" active-class="hover-active">Accueil</router-link>
+          <div class="hidden lg:flex items-center gap-2 xl:gap-4 text-sm font-medium">
+            <router-link to="/" class="nav-item px-3 py-2 rounded-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200" active-class="bg-[#FCD116] text-[#009E60] font-bold">Accueil</router-link>
 
-            <!-- Actualités - Menu cliquable avec chevron -->
+            <!-- Actualités -->
             <div class="relative group">
               <div class="flex items-center">
                 <router-link
                   to="/actualite"
-                  class="nav-item px-3 py-2 rounded-l hover:bg-[#FCD116] hover:text-[#009E60] transition text-[#009E60]"
-                  active-class="hover-active"
+                  class="nav-item px-3 py-2 rounded-l-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200"
+                  active-class="bg-[#FCD116] text-[#009E60] font-bold"
                 >
                   Actualités
                 </router-link>
                 <button
                   @click.stop="toggleDropdown('actualites')"
-                  class="nav-item px-2 py-2 rounded-r hover:bg-[#FCD116] hover:text-[#009E60] transition border-l border-[#009E60]/20"
+                  class="nav-item px-2 py-2 rounded-r-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200 border-l border-white/20"
                   :class="{ 'bg-[#FCD116] text-[#009E60]': openDropdowns.actualites }"
                 >
                   <svg class="w-4 h-4 transition-transform duration-200" :class="{ 'rotate-180': openDropdowns.actualites }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -39,32 +39,33 @@
                   </svg>
                 </button>
               </div>
-              <div v-show="openDropdowns.actualites" class="absolute top-full left-0 min-w-[220px] bg-white rounded-lg shadow-lg z-50 py-1 mt-1">
-                <router-link to="/actualites-ambassade" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100 last:border-0">
+              <!-- Dropdown en Glassmorphism -->
+              <div v-show="openDropdowns.actualites" class="absolute top-full left-0 min-w-[220px] bg-black/60 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl z-50 py-2 mt-2">
+                <router-link to="/actualites-ambassade" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10 last:border-0">
                   Actualités de l'Ambassade
                 </router-link>
-                <router-link to="/actualites-diplomatique" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100 last:border-0">
+                <router-link to="/actualites-diplomatique" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10 last:border-0">
                   Actualités diplomatiques
                 </router-link>
-                <router-link to="/actualites-gouvernementale" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">
+                <router-link to="/actualites-gouvernementale" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">
                   Actualités gouvernementales
                 </router-link>
               </div>
             </div>
 
-            <!-- Ambassade - Menu cliquable avec chevron -->
+            <!-- Ambassade -->
             <div class="relative group">
               <div class="flex items-center">
                 <router-link
                   to="/presentation"
-                  class="nav-item px-3 py-2 rounded-l hover:bg-[#FCD116] hover:text-[#009E60] transition text-[#009E60]"
-                  active-class="hover-active"
+                  class="nav-item px-3 py-2 rounded-l-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200"
+                  active-class="bg-[#FCD116] text-[#009E60] font-bold"
                 >
                   Ambassade
                 </router-link>
                 <button
                   @click.stop="toggleDropdown('ambassade')"
-                  class="nav-item px-2 py-2 rounded-r hover:bg-[#FCD116] hover:text-[#009E60] transition border-l border-[#009E60]/20"
+                  class="nav-item px-2 py-2 rounded-r-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200 border-l border-white/20"
                   :class="{ 'bg-[#FCD116] text-[#009E60]': openDropdowns.ambassade }"
                 >
                   <svg class="w-4 h-4 transition-transform duration-200" :class="{ 'rotate-180': openDropdowns.ambassade }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,31 +73,30 @@
                   </svg>
                 </button>
               </div>
-              <div v-show="openDropdowns.ambassade" class="absolute top-full left-0 min-w-[240px] bg-white rounded-lg shadow-lg z-50 py-1 mt-1 max-h-[80vh] overflow-y-auto">
-                <router-link to="/presentation" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">Présentation</router-link>
-                <router-link to="/ambassadeur" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">L'Ambassadeur</router-link>
-                <router-link to="/chancellerie" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">La chancellerie diplomatique</router-link>
-                <router-link to="/services-ambassadeur" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">Les Services</router-link>
-                <router-link to="/consuls-honoraires" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">Les consuls Honoraires</router-link>
-                <router-link to="/calendrier" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">Calendrier des fêtes légales</router-link>
+              <!-- Dropdown en Glassmorphism -->
+              <div v-show="openDropdowns.ambassade" class="absolute top-full left-0 min-w-[240px] bg-black/60 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl z-50 py-2 mt-2 max-h-[80vh] overflow-y-auto">
+                <router-link to="/presentation" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">Présentation</router-link>
+                <router-link to="/ambassadeur" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">L'Ambassadeur</router-link>
+                <router-link to="/chancellerie" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">La chancellerie diplomatique</router-link>
+                <router-link to="/services-ambassadeur" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">Les Services</router-link>
+                <router-link to="/consuls-honoraires" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">Les consuls Honoraires</router-link>
+                <router-link to="/calendrier" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">Calendrier des fêtes légales</router-link>
               </div>
             </div>
 
-
-
-            <!-- Services - Menu cliquable avec chevron -->
+            <!-- Services -->
             <div class="relative group">
               <div class="flex items-center">
                 <router-link
                   to="/consulat"
-                  class="nav-item px-3 py-2 rounded-l hover:bg-[#FCD116] hover:text-[#009E60] transition text-[#009E60]"
-                  active-class="hover-active"
+                  class="nav-item px-3 py-2 rounded-l-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200"
+                  active-class="bg-[#FCD116] text-[#009E60] font-bold"
                 >
                   Services
                 </router-link>
                 <button
                   @click.stop="toggleDropdown('services')"
-                  class="nav-item px-2 py-2 rounded-r hover:bg-[#FCD116] hover:text-[#009E60] transition border-l border-[#009E60]/20"
+                  class="nav-item px-2 py-2 rounded-r-lg hover:bg-[#FCD116] hover:text-[#009E60] transition-all duration-200 border-l border-white/20"
                   :class="{ 'bg-[#FCD116] text-[#009E60]': openDropdowns.services }"
                 >
                   <svg class="w-4 h-4 transition-transform duration-200" :class="{ 'rotate-180': openDropdowns.services }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,17 +104,18 @@
                   </svg>
                 </button>
               </div>
-              <div v-show="openDropdowns.services" class="absolute top-full left-0 min-w-[220px] bg-white rounded-lg shadow-lg z-50 py-1 mt-1">
-                <router-link to="/consulat" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">Le consulat</router-link>
-                <router-link to="/rendez-vous" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-gray-100">Prise de rendez-vous</router-link>
-                <router-link to="/demarche-ligne" class="block px-4 py-2 text-sm text-gray-800 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">Vos démarches en ligne</router-link>
+              <!-- Dropdown en Glassmorphism -->
+              <div v-show="openDropdowns.services" class="absolute top-full left-0 min-w-[220px] bg-black/60 backdrop-blur-md border border-white/10 rounded-xl shadow-2xl z-50 py-2 mt-2">
+                <router-link to="/consulat" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">Le consulat</router-link>
+                <router-link to="/rendez-vous" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all border-b border-white/10">Prise de rendez-vous</router-link>
+                <router-link to="/demarche-ligne" class="block px-4 py-2 text-sm text-white/90 hover:bg-[#FCD116] hover:text-[#009E60] transition-all">Vos démarches en ligne</router-link>
               </div>
             </div>
 
             <!-- Bouton de connexion -->
             <router-link
               to="/connexion"
-              class="bg-[#FCD116] text-[#009E60] px-5 py-2 rounded-full font-semibold hover:bg-[#009E60] hover:text-white transition-all ml-4 flex items-center gap-2"
+              class="bg-[#FCD116] text-[#009E60] px-5 py-2 rounded-full font-semibold hover:bg-[#009E60] hover:text-white transition-all ml-4 flex items-center gap-2 shadow-md hover:shadow-lg"
             >
               <i class='bx bx-user text-lg'></i>
               Connexion
@@ -122,14 +123,14 @@
           </div>
         </div>
 
-        <!-- Mobile menu -->
-        <div v-show="isMobileMenuOpen" class="lg:hidden mt-4 pb-4">
+        <!-- Mobile menu Glassmorphism -->
+        <div v-show="isMobileMenuOpen" class="lg:hidden mt-4 pb-4 bg-black/70 backdrop-blur-md border border-white/10 shadow-2xl rounded-2xl p-4">
           <div class="flex flex-col gap-2">
-            <router-link to="/" class="block px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-[#009E60]">Accueil</router-link>
+            <router-link to="/" class="block px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-white">Accueil</router-link>
 
-            <!-- Version mobile avec accordéon -->
+            <!-- Version mobile -->
             <div v-for="menu in mobileMenus" :key="menu.key">
-              <div class="flex items-center justify-between px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-[#009E60]">
+              <div class="flex items-center justify-between px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-white">
                 <router-link :to="menu.path" class="flex-1">{{ menu.label }}</router-link>
                 <button @click.stop="toggleSubmenu(menu.key)" class="p-1">
                   <svg class="w-4 h-4 transition-transform duration-200" :class="{'rotate-90': openSubmenus[menu.key]}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -138,28 +139,27 @@
                 </button>
               </div>
               <div v-show="openSubmenus[menu.key]" class="ml-4 flex flex-col gap-1 text-sm">
-                <router-link v-for="item in menu.items" :key="item.path" :to="item.path" class="block px-3 py-1 hover:bg-[#FCD116] hover:text-[#009E60] text-[#009E60]">
+                <router-link v-for="item in menu.items" :key="item.path" :to="item.path" class="block px-3 py-1 hover:bg-[#FCD116] hover:text-[#009E60] text-white/80 rounded">
                   {{ item.label }}
                 </router-link>
               </div>
             </div>
 
-            <router-link to="/videos" class="block px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-[#009E60]">Vidéos</router-link>
-            <router-link to="/connexion" class="block px-3 py-2 rounded bg-[#FCD116] text-[#009E60] font-semibold text-center">Connexion</router-link>
+            <router-link to="/videos" class="block px-3 py-2 rounded hover:bg-[#FCD116] hover:text-[#009E60] text-white">Vidéos</router-link>
+            <router-link to="/connexion" class="block px-3 py-2 rounded bg-[#FCD116] text-[#009E60] font-semibold text-center mt-2">Connexion</router-link>
           </div>
         </div>
       </div>
     </nav>
 
     <!-- Main content -->
-    <main class="flex-1 pt-10">
+    <main class="flex-1">
       <div class="flex-1">
         <router-view></router-view>
       </div>
 
-      <!-- Footer amélioré avec vagues - Couleurs Gabon -->
-      <footer class="bg-linear-to-b from-[#009E60] to-[#006640] text-white relative overflow-hidden -mt-1">
-
+      <!-- Footer -->
+      <footer class="bg-gradient-to-b from-[#009E60] to-[#006640] text-white relative overflow-hidden -mt-1">
         <!-- Vagues décoratives -->
         <div class="absolute top-0 left-0 right-0 transform -translate-y-1">
           <svg class="w-full h-12 sm:h-16" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -171,11 +171,8 @@
 
         <!-- Contenu du footer -->
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-8 sm:pb-10">
-
-          <!-- Partie supérieure du footer (4 colonnes) -->
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-10">
-
-            <!-- Colonne 1 : Logo et description -->
+            <!-- Colonne 1 -->
             <div class="sm:col-span-2 lg:col-span-1">
               <div class="flex gap-4 mb-4">
                 <img :src="logo1" alt="Armoiries du Gabon" class="h-14 w-auto bg-white/10 p-2 rounded-lg backdrop-blur-sm">
@@ -185,7 +182,6 @@
                 Représentation diplomatique du Gabon aux Etats-Unis, au service de la communauté gabonaise et du renforcement des relations bilatérales.
               </p>
 
-              <!-- Réseaux sociaux -->
               <div class="mt-6 flex space-x-3">
                 <a href="#" class="p-2 bg-white/10 hover:bg-[#FCD116] hover:text-[#009E60] rounded-full transition-all duration-200">
                   <i class='bx bxl-facebook text-lg'></i>
@@ -202,7 +198,7 @@
               </div>
             </div>
 
-            <!-- Colonne 2 : Ambassade -->
+            <!-- Colonne 2 -->
             <div>
               <h4 class="text-[#FCD116] font-semibold text-lg mb-4 flex items-center gap-2">
                 <span class="w-1 h-6 bg-[#3A75C4] rounded-full"></span>
@@ -230,7 +226,7 @@
               </ul>
             </div>
 
-            <!-- Colonne 3 : Services -->
+            <!-- Colonne 3 -->
             <div>
               <h4 class="text-[#FCD116] font-semibold text-lg mb-4 flex items-center gap-2">
                 <span class="w-1 h-6 bg-[#3A75C4] rounded-full"></span>
@@ -264,29 +260,25 @@
               </ul>
             </div>
 
-            <!-- Colonne 4 : Contact -->
+            <!-- Colonne 4 -->
             <div>
               <h4 class="text-[#FCD116] font-semibold text-lg mb-4 flex items-center gap-2">
                 <span class="w-1 h-6 bg-[#3A75C4] rounded-full"></span>
                 Contact
               </h4>
-
               <div class="space-y-4">
                 <div class="flex items-start gap-3">
                   <i class='bx bx-map text-[#FCD116] text-xl mt-1'></i>
                   <p class="text-white/80 text-sm">2112 Leroy Place NW, Washington, DC 20008</p>
                 </div>
-
                 <div class="flex items-center gap-3">
                   <i class='bx bx-phone text-[#FCD116] text-xl'></i>
                   <p class="text-white/80">+1 (202) 483 9420</p>
                 </div>
-
                 <div class="flex items-center gap-3">
                   <i class='bx bx-envelope text-[#FCD116] text-xl'></i>
                   <p class="text-white/80">info@ambagabon-us.org</p>
                 </div>
-
                 <div class="flex items-center gap-3">
                   <i class='bx bx-time text-[#FCD116] text-xl'></i>
                   <p class="text-white/80">Lun-Ven: 9h - 17h</p>
@@ -295,7 +287,7 @@
             </div>
           </div>
 
-          <!-- Liens rapides supplémentaires -->
+          <!-- Liens rapides -->
           <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 py-6 border-t border-white/20">
             <router-link to="/actualites" class="text-white/70 hover:text-[#FCD116] text-sm transition-colors flex items-center gap-1">
               <i class='bx bx-chevron-right text-[#FCD116] text-xs'></i>
@@ -319,19 +311,17 @@
             </router-link>
           </div>
 
-          <!-- Signature et mentions légales -->
+          <!-- Copyright -->
           <div class="mt-6 pt-6 border-t border-white/20">
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-white/70 text-xs sm:text-sm gap-4">
               <div>
                 <p>© 2024 Ambassade de la République Gabonaise. Tous droits réservés.</p>
                 <p class="mt-1 text-xs">près les Etats-Unis d'Amérique - Washington DC</p>
               </div>
-
               <div class="flex items-center gap-2">
                 <span class="hidden sm:inline">Créé par</span>
                 <span class="font-bold text-[#FCD116] whitespace-nowrap">SCB SYSTEMS Africa</span>
               </div>
-
               <div class="flex flex-col sm:flex-row gap-2 sm:gap-4">
                 <router-link to="/mentions-legales" class="hover:text-[#FCD116] transition-colors duration-200">
                   Mentions légales
@@ -354,7 +344,6 @@ import logo1 from '@/assets/images/Gabonarmoirie.png'
 
 const isMobileMenuOpen = ref(false)
 
-// État des dropdowns
 const openDropdowns = reactive({
   actualites: false,
   ambassade: false,
@@ -364,7 +353,6 @@ const openDropdowns = reactive({
   venir: false
 })
 
-// État des sous-menus mobiles
 const openSubmenus = reactive({
   actualites: false,
   ambassade: false,
@@ -374,7 +362,6 @@ const openSubmenus = reactive({
   venir: false
 })
 
-// Menus mobiles
 const mobileMenus = ref([
   {
     key: 'actualites',
@@ -433,7 +420,6 @@ const mobileMenus = ref([
   }
 ])
 
-// Fonctions
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value
 }
@@ -448,23 +434,10 @@ const toggleSubmenu = (key) => {
 </script>
 
 <style scoped>
-/* Style pour le hover uniquement - pas de fond permanent */
 .nav-item {
   transition: all 0.3s ease;
 }
 
-.nav-item:hover {
-  background-color: #FCD116;
-  color: #009E60;
-}
-
-/* Classe pour le hover des liens dans les dropdowns */
-.hover-active:hover {
-  background-color: #FCD116;
-  color: #009E60;
-}
-
-/* Animation pour les flèches */
 .rotate-180 {
   transform: rotate(180deg);
 }
@@ -473,7 +446,6 @@ const toggleSubmenu = (key) => {
   transform: rotate(90deg);
 }
 
-/* Transition pour les dropdowns */
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
